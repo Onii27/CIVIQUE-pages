@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f5f7ff">
+    <meta name="description" content="Politique de confidentialité de Formation Civique : données locales, audio, notifications et sauvegardes.">
+    <title>Confidentialité — Formation Civique</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --ink: #14213d;
+        --muted: #59677f;
+        --blue: #1769e0;
+        --line: #dce4f2;
+        --paper: #fff;
+        --wash: #f5f7ff;
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      }
+      * { box-sizing: border-box; }
+      body { margin: 0; background: var(--wash); color: var(--ink); line-height: 1.7; }
+      a { color: #123f9b; }
+      header { padding: 22px 0; }
+      .wrap { width: min(850px, calc(100% - 40px)); margin: auto; }
+      .nav { display: flex; justify-content: space-between; align-items: center; gap: 16px; }
+      .nav a { font-weight: 750; text-decoration: none; }
+      .brand { color: var(--ink); }
+      main { margin: 28px auto 64px; padding: clamp(22px, 5vw, 54px); border: 1px solid var(--line); border-radius: 26px; background: var(--paper); box-shadow: 0 18px 50px #1b3d790d; }
+      .eyebrow { color: var(--blue); font-size: .8rem; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; }
+      h1 { margin: 8px 0 5px; font-size: clamp(2rem, 6vw, 3.5rem); line-height: 1.1; letter-spacing: -.05em; }
+      h2 { margin: 30px 0 8px; font-size: 1.3rem; line-height: 1.3; }
+      p, li { color: var(--muted); }
+      .updated { margin: 0 0 24px; font-size: .92rem; }
+      .callout { padding: 18px; border-radius: 16px; background: #eaf1ff; color: #193c78; }
+      ul { padding-left: 1.3rem; }
+      li { padding-left: .2rem; margin: 7px 0; }
+      footer { padding: 0 0 32px; color: var(--muted); font-size: .9rem; }
+      @media (max-width: 600px) {
+        .nav { align-items: flex-start; flex-direction: column; }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="wrap">
+      <nav class="nav" aria-label="Navigation principale">
+        <a class="brand" href="./">Formation Civique</a>
+        <a href="./">Retour à l’accueil</a>
+      </nav>
+    </header>
+
+    <main class="wrap">
+      <div class="eyebrow">Vie privée</div>
+      <h1>Politique de confidentialité</h1>
+      <p class="updated">Mise à jour : 17 octobre 2026</p>
+      <p class="callout"><strong>En bref :</strong> aucun compte n’est requis. L’application ne transmet pas votre progression ni vos préférences à un serveur Formation Civique. Certaines fonctions du système, les liens externes et Expo Go ont leurs propres échanges de données techniques, décrits ci-dessous.</p>
+
+      <h2>1. Qui est concerné ?</h2>
+      <p>Cette politique concerne l’application Formation Civique et sa version web lorsqu’elle est publiée. Formation Civique est un outil éducatif indépendant, non un service officiel du gouvernement français. Pour une question relative à cette politique, contactez le mainteneur via les <a href="https://github.com/Onii27/CIVIQUE-pages/issues">issues du dépôt GitHub</a>.</p>
+
+      <h2>2. Données enregistrées dans l’application</h2>
+      <p>L’application peut enregistrer sur l’appareil ou dans le navigateur les informations nécessaires à son fonctionnement :</p>
+      <ul>
+        <li>nom ou pseudonyme et avatar, s’ils sont renseignés ;</li>
+        <li>préférences d’apparence, de taille du texte, de parcours et de quiz ;</li>
+        <li>progression des leçons, réponses et progression des quiz, historique, favoris et questions à réviser ;</li>
+        <li>objectifs quotidiens, plan d’étude du jour, temps d’étude, séries et badges ;</li>
+        <li>préférences audio et rappels programmés.</li>
+      </ul>
+      <p>Sur Android et iOS, les données sont conservées dans le stockage local de l’application. Certaines valeurs sensibles peuvent utiliser le stockage sécurisé fourni par le système. Dans un navigateur, le stockage local du navigateur est utilisé.</p>
+
+      <h2>3. Transmission, compte et suivi</h2>
+      <p>L’application ne comporte pas de création de compte ni de service Formation Civique qui collecte ou synchronise la progression et les préférences. Elle n’intègre pas de publicité, de suivi publicitaire ou d’outil d’analyse d’utilisation.</p>
+      <p>Les builds natifs utilisent les polices d’icônes intégrées au projet. Expo Go peut télécharger ces polices depuis le CDN jsDelivr ; ce fournisseur reçoit les informations techniques habituelles liées à une requête réseau, comme l’adresse IP. Ce chargement est propre à Expo Go, pas aux builds natifs de test ou de production.</p>
+      <p>Si vous choisissez « Rechercher une mise à jour » dans les paramètres, l’application interroge l’API publique des releases GitHub de Formation Civique pour repérer un nouvel APK. GitHub reçoit les informations techniques habituelles de cette requête, notamment l’adresse IP. L’APK n’est téléchargé qu’après votre choix et l’application ne l’installe pas automatiquement. Le signalement d’un problème ouvre un e-mail prérempli ; aucun message ni donnée de diagnostic n’est envoyé tant que vous ne décidez pas de l’envoyer depuis votre messagerie.</p>
+
+      <h2>4. Rappels et autorisations</h2>
+      <p>Les rappels d’entraînement sont facultatifs. Après votre autorisation, le système d’exploitation programme et affiche les notifications sur l’appareil. L’application n’envoie pas ces rappels depuis un serveur. Vous pouvez modifier ou annuler les rappels depuis les paramètres de l’application ou les réglages de notification du téléphone.</p>
+
+      <h2>5. Audio et synthèse vocale</h2>
+      <p>Les enregistrements de leçons inclus dans l’application sont lus localement. La synthèse vocale utilise le moteur et les voix configurés sur votre appareil. L’installation ou le téléchargement de données vocales relève du fabricant ou du fournisseur du système et peut nécessiter une connexion Internet. Android peut afficher des commandes multimédia locales pour les enregistrements inclus.</p>
+
+      <h2>6. Liens, partage et sauvegarde</h2>
+      <p>Les liens vers des sites tiers s’ouvrent dans le navigateur ou l’application choisie. Ces services appliquent leurs propres politiques de confidentialité.</p>
+      <p>Lorsque vous demandez un export, l’application prépare un fichier JSON avec des préférences et données de progression. Si vous choisissez ensuite de le partager ou de l’enregistrer dans un service, ce destinataire reçoit le fichier selon votre choix et ses propres conditions. L’import lit le fichier choisi et écrit les valeurs reconnues dans le stockage local.</p>
+      <p>Le système d’exploitation peut inclure les données d’application dans une sauvegarde de l’appareil si vous avez activé cette fonction dans ses réglages. Ces sauvegardes sont gérées par la plateforme, pas par un serveur Formation Civique.</p>
+
+      <h2>7. Conservation et suppression</h2>
+      <p>Les données restent dans le stockage local jusqu’à leur suppression. Dans les paramètres, vous pouvez réinitialiser la progression des leçons, l’historique des quiz, les révisions et favoris, ou toutes les données locales. La désinstallation supprime les données locales de l’application ; une sauvegarde système peut en conserver une copie selon les réglages de l’appareil.</p>
+
+      <h2>8. Version web</h2>
+      <p>La version web conserve les données dans le stockage du navigateur sur l’appareil. Effacer les données du site dans le navigateur les supprime. Les rappels locaux natifs et certaines fonctions du lecteur audio peuvent ne pas être disponibles sur le web.</p>
+
+      <h2>9. Modifications de cette politique</h2>
+      <p>Cette page peut être mise à jour si le fonctionnement de l’application change. La date en haut de la page indique la dernière mise à jour publiée. Les versions récentes du texte sont également consultables dans le dépôt du projet.</p>
+    </main>
+
+    <footer class="wrap">
+      <a href="./">Accueil</a> · <a href="https://github.com/Onii27/CIVIQUE-pages">Dépôt GitHub</a>
+    </footer>
+  </body>
+</html>
